@@ -1,0 +1,63 @@
+* {
+    font-size: 24px;
+    font-family: Helvetica, Arial;
+}
+
+body {
+    background-color: #252525;
+    color: lightgray;
+}
+
+h1 {
+    font-size: 36pt;
+}
+
+
+.clear_left {
+    clear: left;
+}
+
+.btn {
+    border: 1px solid blue;
+    background-color: lightgray;
+    width: 5em;
+    border-radius: 10px;
+    margin-left: 10px;
+}
+
+
+.key_val_row {
+    padding-bottom: 5px;
+    margin-bottom: 5px;
+    border-bottom: 1px solid gray;
+//display: inline-block;		// shrink to width of contents
+}
+
+.key {
+    width:	5em;
+    float: left;
+}
+
+.value {
+    width:	10em;
+    float: left;
+    margin-left: 1em;
+}
+
+.delItemBtn {
+    width: 5em;
+}
+
+.error {
+    color: red;
+    font-style: italic;
+}
+
+
+div.size_view, div.list_view {
+    float: left;
+}
+
+div.size_view {
+    margin-left: 2em;
+}
